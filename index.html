@@ -137,6 +137,7 @@
       if (e.detail === "setFlag:true") {
         unityFlag = !unityFlag; // Toggle the flag
         console.log("Flag toggled. New state:", unityFlag);
+        Android.onUserOut()
       }
     });
 
